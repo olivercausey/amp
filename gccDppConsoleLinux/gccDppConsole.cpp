@@ -218,53 +218,51 @@ int main(int argc, char* argv[])
 {
 	system(CLEAR_TERM);
 	ConnectToDefaultDPP();
-	cout << "Press the Enter key to continue . . .";
+	/*cout << "Press the Enter key to continue . . .";
 	_getch();
-
+*/
 	system(CLEAR_TERM);
 	GetDppStatus();
-	cout << "Press the Enter key to continue . . .";
+	/*cout << "Press the Enter key to continue . . .";
 	_getch();
-
+*/
 	system(CLEAR_TERM);
 	ReadDppConfigurationFromHardware(true);
-	cout << "Press the Enter key to continue . . .";
-	_getch(); 
-
+	/*cout << "Press the Enter key to continue . . .";
+	_getch();
+*/
 	system(CLEAR_TERM);
 	DisplayPresets();
-	cout << "Press the Enter key to continue . . .";
-	_getch(); 
-
+	/*cout << "Press the Enter key to continue . . .";
+	_getch();
+*/
 	system(CLEAR_TERM);
 	SendPresetAcquisitionTime("PRET=20;");
-	cout << "Press the Enter key to continue . . .";
-	_getch(); 
-
+	/*cout << "Press the Enter key to continue . . .";
+	_getch();
+*/
 	system(CLEAR_TERM);
 	AcquireSpectrum();
-	cout << "Press the Enter key to continue . . .";
-	_getch(); 
-
+	/*cout << "Press the Enter key to continue . . .";
+	_getch();
+*/
 	system(CLEAR_TERM);
 	SendPresetAcquisitionTime("PRET=OFF;");
-	cout << "Press the Enter key to continue . . .";
-	_getch(); 
-
+	/*cout << "Press the Enter key to continue . . .";
+	_getch();
+*/
 	system(CLEAR_TERM);
 	ReadConfigFile();
-	cout << "Press the Enter key to continue . . .";
-	_getch(); 
-
+	/*cout << "Press the Enter key to continue . . .";
+	_getch();
+*/
 	system(CLEAR_TERM);
 	CloseConnection();
-	cout << "Press the Enter key to continue . . .";
-	_getch(); 
-
+	/*cout << "Press the Enter key to continue . . .";
+	_getch();
+*/
 	return 0;
 }
-
-
 
 
 
